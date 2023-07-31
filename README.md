@@ -16,7 +16,7 @@ Install via the bundled [Plugin Manager](https://docs.octoprint.org/en/master/bu
 
 The firmware for the Teensy implements a USB device talking RAW HID, meaning there is no need for a driver. Build and flash the Teensy and connect G to Teensy GND, V to Teensy VCC and S to Teensy F6.
 
-[![Smart Filament Sensor pinout](https://raw.githubusercontent.com/kanflo/OctoPrint-Teensyfilamentsensor/main/extras/smart-filement-sensor-pinut.png)]
+![Smart Filament Sensor pinout](https://raw.githubusercontent.com/kanflo/OctoPrint-Teensyfilamentsensor/main/extras/smart-filement-sensor-pinut.png)
 
 
 ## Mounting
@@ -28,7 +28,7 @@ I designed a housing the the filament sensor and Teensy that mounts nicely on th
 
 The plugin adds a status icon to the top bar of the OctoPrint UI:
 
-[![Filament status in OctoPrint](https://raw.githubusercontent.com/kanflo/OctoPrint-Teensyfilamentsensor/main/extras/octoprint-status.png)]
+![Filament status in OctoPrint](https://raw.githubusercontent.com/kanflo/OctoPrint-Teensyfilamentsensor/main/extras/octoprint-status.png)
 
 When the printer is idle, the icon will flash red/gray if the Teensy is disconnected and start flashing green/gray once the Teensy is connected.
 
