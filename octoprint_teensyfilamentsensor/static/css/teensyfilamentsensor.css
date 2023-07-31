@@ -1,0 +1,19 @@
+.idle {
+    filter: grayscale(100%) brightness(150%);
+}
+
+.disconnected {
+    filter: grayscale(75%) brightness(150%);
+}
+
+.connected {
+    filter: hue-rotate(120deg) grayscale(75%) brightness(150%);
+}
+
+.error {
+    filter: grayscale(0%)
+}
+
+.ok {
+    filter: hue-rotate(120deg) brightness(150%);
+}
