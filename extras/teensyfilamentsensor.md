@@ -28,11 +28,11 @@ tags:
 # TODO
 # When registering a plugin on plugins.octoprint.org, all screenshots should be uploaded not linked from external sites.
 screenshots:
-- url: extras/octoprint-status.png
+- url: extras/images/octoprint-status.png
   alt: OctoPrint Filement Status
   caption: OctoPrint Filement Status
 
-featuredimage: /extras/smart-filament-sensor.png
+featuredimage: /extras/images/smart-filament-sensor.png
 
 # TODO
 # You only need the following if your plugin requires specific OctoPrint versions or
