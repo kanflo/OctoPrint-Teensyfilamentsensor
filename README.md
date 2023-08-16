@@ -81,7 +81,7 @@ The plugin adds a status icon to the top bar of the OctoPrint UI:
 
 ![Filament status in OctoPrint](https://raw.githubusercontent.com/kanflo/OctoPrint-Teensyfilamentsensor/main/extras/images/octoprint-status.png)
 
-When the printer is idle, the icon will flash red/gray if the Teensy is disconnected and start flashing green/gray once the Teensy is connected. It should flash green/gray now. If not, ssh to your OctoPrint server and run the command `tail -f logs/octoprint.log`. The directory `logs` is located in a directory called `.octoprint` om by OctoPi.
+When the printer is idle, the icon will flash red/gray if the Teensy is disconnected and start flashing green/gray once the Teensy is connected. It should flash green/gray now. If not, ssh to your OctoPrint server and run the command `tail -f logs/octoprint.log`. The directory `logs` is located in a directory called `.octoprint` on my OctoPi.
 
 When printing, the icon will be bright green when the filament status is ok. If the sensor detects a jam, it will light bright red and the print will be stopped (well, that's a TODO for now). If there is an error talking to the Teensy, or if the Teensy is disconnected when printing, the icon will flash bright red/gray.
 
